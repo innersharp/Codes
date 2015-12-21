@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("InnerSharp.Codes")]
+[assembly: AssemblyTitle("InnerSharp.Codes.BruteForce")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("InnerSharp.Codes")]
+[assembly: AssemblyProduct("InnerSharp.Codes.BruteForce")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("65cfb101-054c-48c3-8cf0-6d79704d3738")]
+[assembly: Guid("471bd165-9899-4c2b-a032-91be568f3ad3")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InnerSharp.Codes
+namespace InnerSharp.Codes.BruteForce
 {
     class Program
     {
