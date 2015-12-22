@@ -11,7 +11,9 @@ namespace InnerSharp.Codes.Search
         static void Main(string[] args)
         {
 
-            /*Console.WriteLine("Enter line: ");
+            #region BruteForceSearch
+            /*
+            Console.WriteLine("Enter line: ");
             string str = Console.ReadLine();
             Console.WriteLine("Enter Pattern to find in the above Line: ");
             string pattern = Console.ReadLine();
@@ -30,10 +32,20 @@ namespace InnerSharp.Codes.Search
             {
                 Console.WriteLine("Pattern Not Found");
             }
-            Console.ReadLine();*/
-            SequentialSearch objSS = new SequentialSearch();
-            Console.WriteLine(objSS.Find().ToString());
+            Console.ReadLine();
+            */
+            #endregion
+            #region LinearSearch
+                int[] NumberStore = { 10, 20, 30, 40, 50 };
+                int SearchNum = 50;
+
+                SequentialSearch objSS = new SequentialSearch();
+                if (objSS.Find(NumberStore, SearchNum))
+                    Console.WriteLine("Search Number found in Number Store");
+                else
+                    Console.WriteLine("Search Number not found in Number Store");
+            #endregion
         }
-        
+
     }
 }

@@ -11,24 +11,14 @@ namespace InnerSharp.Codes.Search
     /// Sequential Search or Linear Search
     /// </summary>
     public class SequentialSearch
-    {
-        public string[] Vocabulary { get; set; }
-        public string SearchWord { get; set; }
-        
-        public SequentialSearch()
-        {            
-            Console.WriteLine("Enter the sentence: ");
-            Vocabulary = Console.ReadLine().Split(' ');
-            Console.WriteLine("Enter the Search Word: ");
-            SearchWord = Console.ReadLine();                
-        }
-        public bool Find()
+    {   
+        public bool Find(int[] NumberStore, int SearchNum)
         {
             bool isFind = false;
 
-            foreach (string str in Vocabulary)
+            foreach (int num in NumberStore)
             {
-                if(str==SearchWord)
+                if(num== SearchNum)
                 {
                     isFind = true;
                     break;
