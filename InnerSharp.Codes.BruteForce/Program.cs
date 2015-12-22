@@ -15,7 +15,9 @@ namespace InnerSharp.Codes.BruteForce
             Console.WriteLine("Enter Pattern to find in the above Line: ");
             string pattern = Console.ReadLine();
 
-            BruteForce objBF = new BruteForce { Text = str.ToCharArray(), Pattern = pattern.ToCharArray() };
+            BruteForce objBF = new BruteForce {
+                                    Text = str.ToCharArray(),
+                                    Pattern = pattern.ToCharArray() };
 
             int indexOf = objBF.IndexOf(str.ToCharArray(), pattern.ToCharArray());
 
