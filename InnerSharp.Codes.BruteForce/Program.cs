@@ -4,22 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InnerSharp.Codes.BruteForce
+namespace InnerSharp.Codes.Search
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter line: ");
+
+            /*Console.WriteLine("Enter line: ");
             string str = Console.ReadLine();
             Console.WriteLine("Enter Pattern to find in the above Line: ");
             string pattern = Console.ReadLine();
 
-            BruteForce objBF = new BruteForce {
+            BruteForceSearch objBFS = new BruteForceSearch {
                                     Text = str.ToCharArray(),
                                     Pattern = pattern.ToCharArray() };
 
-            int indexOf = objBF.IndexOf();
+            int indexOf = objBFS.IndexOf();
 
             if(indexOf>-1)
             {
@@ -29,7 +30,9 @@ namespace InnerSharp.Codes.BruteForce
             {
                 Console.WriteLine("Pattern Not Found");
             }
-            Console.ReadLine();
+            Console.ReadLine();*/
+            SequentialSearch objSS = new SequentialSearch();
+            Console.WriteLine(objSS.Find().ToString());
         }
         
     }

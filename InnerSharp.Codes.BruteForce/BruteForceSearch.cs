@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InnerSharp.Codes.BruteForce
+namespace InnerSharp.Codes.Search
 {
-    public class BruteForce
+    public class BruteForceSearch
     {
         public char[] Text { get; set; }
         public char[] Pattern { get; set; }

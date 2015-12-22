@@ -7,8 +7,8 @@
     <ProjectGuid>{471BD165-9899-4C2B-A032-91BE568F3AD3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InnerSharp.Codes.BruteForce</RootNamespace>
-    <AssemblyName>InnerSharp.Codes.BruteForce</AssemblyName>
+    <RootNamespace>InnerSharp.Codes.Search</RootNamespace>
+    <AssemblyName>InnerSharp.Codes.Search</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BruteForce.cs" />
+    <Compile Include="BruteForceSearch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SequentialSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
