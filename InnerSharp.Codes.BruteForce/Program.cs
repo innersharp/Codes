@@ -19,7 +19,7 @@ namespace InnerSharp.Codes.BruteForce
                                     Text = str.ToCharArray(),
                                     Pattern = pattern.ToCharArray() };
 
-            int indexOf = objBF.IndexOf(str.ToCharArray(), pattern.ToCharArray());
+            int indexOf = objBF.IndexOf();
 
             if(indexOf>-1)
             {
